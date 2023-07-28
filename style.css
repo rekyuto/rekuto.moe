@@ -2,9 +2,21 @@ body {
     background-color: #222222;
     font-family: 'Source Sans 3', sans-serif;
 }
-h2 {
+h1 {
     color: #e3e1db;
 }
-#silverwolf {
-    width: 200px;
+a {
+    color: #a6ecff;
+}
+#kafka {
+    height: 200px;
+}
+#atagoSip {
+    height: 28px;
+    padding-top: 6px;
+}
+.message {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 4px;
 }
