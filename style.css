@@ -6,12 +6,20 @@ body {
 a {
     color: #a6ecff;
 }
+hr {
+    position: relative;
+    width: 25%;
+    bottom: 35px;
+}
+h6 {
+    font-size: 10px;
+}
 #kafka {
     height: 200px;
 }
 #atagoSip {
     height: 30px;
-    padding-top: 7px;
+    padding-top: 5px;
 }
 .announcement {
     position: relative;
@@ -20,5 +28,8 @@ a {
 .message {
     display: inline-block;
     vertical-align: middle;
-    margin: 4px;
+    margin: 3px;
+}
+.links-and-stuff {
+    font-size: 18px;
 }
