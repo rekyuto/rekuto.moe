@@ -1,8 +1,6 @@
 body {
     background-color: #222222;
     font-family: 'Source Sans 3', sans-serif;
-}
-h1 {
     color: #e3e1db;
 }
 a {
@@ -12,8 +10,12 @@ a {
     height: 200px;
 }
 #atagoSip {
-    height: 28px;
-    padding-top: 6px;
+    height: 30px;
+    padding-top: 7px;
+}
+.announcement {
+    position: relative;
+    bottom: 45px;
 }
 .message {
     display: inline-block;
