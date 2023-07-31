@@ -7,9 +7,7 @@ a {
     color: #a6ecff;
 }
 hr {
-    position: relative;
-    width: 300px;
-    bottom: 35px;
+    width: 400px
 }
 h6 {
     font-size: 10px;
@@ -20,6 +18,13 @@ h6 {
 #atagoSip {
     height: 30px;
     padding-top: 5px;
+}
+#home-hr {
+    position: relative;
+    bottom: 35px;
+}
+#emu-skin {
+    height: 200px;
 }
 .pages {
     word-spacing: 10px;
@@ -35,4 +40,7 @@ h6 {
 }
 .links-and-stuff {
     font-size: 18px;
+}
+.skin-thumbnails {
+    height: 400px;
 }
