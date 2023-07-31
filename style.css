@@ -43,4 +43,5 @@ h6 {
 }
 .skin-thumbnails {
     width: 50%;
+    max-width: 80%;
 }
