@@ -26,6 +26,10 @@ h6 {
 #emu-skin {
     height: 200px;
 }
+#question-input {
+    width: 40%;
+    height: 100px;
+}
 .pages {
     word-spacing: 10px;
 }
@@ -39,7 +43,7 @@ h6 {
     margin: 3px;
 }
 .links-and-stuff {
-    font-size: 18px;
+    font-size: 20px;
 }
 .skin-thumbnails {
     width: 70%;
