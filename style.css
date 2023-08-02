@@ -13,8 +13,8 @@ h6 {
     font-size: 9px;
 }
 form {
-    width: 30%;
-    max-width: 50%;
+    width: 100%;
+    max-width: 30%;
     margin: 0 auto;
     padding-bottom: 2em;
 }
@@ -79,8 +79,8 @@ input, textarea {
     max-width: 500px;
 }
 .answers {
-    width: 50%;
-    max-width: 70%;
+    width: 100%;
+    max-width: 50%;
     text-align: left;
     border: 1px solid #131313;
 }
