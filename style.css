@@ -13,13 +13,11 @@ h6 {
     font-size: 9px;
 }
 form {
-    width: 100%;
-    max-width: 30%;
+    display: block;
+    max-width: 100%;
+    width: 30%;
     margin: 0 auto;
     padding-bottom: 2em;
-}
-label {
-    display: block;
 }
 input[type="submit"] {
     background-color: #2c2943;
@@ -79,8 +77,8 @@ input, textarea {
     max-width: 500px;
 }
 .answers {
-    width: 100%;
-    max-width: 50%;
+    max-width: 100%;
+    width: 70%;
     text-align: left;
     border: 1px solid #131313;
 }
