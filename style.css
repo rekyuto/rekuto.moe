@@ -30,6 +30,17 @@ h6 {
     width: 40%;
     height: 100px;
 }
+#standard-skins, #mania-skins {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 80%;
+}
 .pages {
     word-spacing: 10px;
 }
@@ -46,6 +57,6 @@ h6 {
     font-size: 20px;
 }
 .skin-thumbnails {
-    width: 70%;
-    max-width: 700px;
+    width: 100%;
+    max-width: 500px;
 }
