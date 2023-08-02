@@ -13,14 +13,13 @@ h6 {
     font-size: 9px;
 }
 form {
-    width: 400px;
-    max-width: 500px;
+    width: 30%;
+    max-width: 50%;
     margin: 0 auto;
     padding-bottom: 2em;
 }
 label {
     display: block;
-    margin: 10px 0;
 }
 input[type="submit"] {
     background-color: #2c2943;
@@ -33,7 +32,7 @@ input, textarea {
     border: 1px solid #131313;
     color: white;
     width: 100%;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
 }
 #kafka {
     height: 200px;
@@ -78,4 +77,16 @@ input, textarea {
 .skin-thumbnails {
     width: 100%;
     max-width: 500px;
+}
+.answers {
+    width: 50%;
+    max-width: 70%;
+    text-align: left;
+    border: 1px solid #131313;
+}
+.answers h3 {
+    color: #d2f5ff;
+}
+.q-and-a {
+    margin: 20px 10px;
 }
