@@ -33,7 +33,16 @@ input, textarea {
     margin: 10px 0 0 0;
 }
 #kafka {
+    position: relative;
     height: 200px;
+    animation-name: kafka-move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes kafka-move {
+    0% {bottom: 0px;}
+    50% {bottom: 10px;}
+    100% {bottom: 0px;}
 }
 #atagoSip {
     height: 30px;
