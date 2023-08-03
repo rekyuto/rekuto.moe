@@ -66,6 +66,20 @@ input, textarea {
     padding: 20px 10px;
     max-width: 80%;
 }
+#announcement-text:after {
+    content: "";
+    animation-name: dotdotdot;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes dotdotdot {
+    0% {content: "";}
+    33% {content: ".";}
+    66% {content: "..";}
+    100% {content: "...";}
+}
 .pages {
     word-spacing: 10px;
 }
