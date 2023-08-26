@@ -1,6 +1,6 @@
 function hover(img){
-    img.src = "https://i.imgur.com/t2DLDPo.png";
+    img.src = "images/kafka/kafka4.png";
 }
 function hoverOut(img){
-    img.src = "https://i.imgur.com/HxHIQdM.png";
+    img.src = "images/kafka/kafka1.png";
 }
