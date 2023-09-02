@@ -13,9 +13,11 @@ h6 {
     font-size: 9px;
 }
 form {
+    border: solid 1px #8f8f8f;
+    border-radius: 10px;
     display: block;
     max-width: 100%;
-    width: 30%;
+    width: 35%;
     margin: 0 auto;
     padding-bottom: 2em;
 }
@@ -29,10 +31,11 @@ input, textarea {
     background-color: #1d1d1d;
     border: 1px solid #131313;
     color: white;
-    width: 100%;
-    margin: 10px 0 0 0;
+    width: 90%;
+    margin: 10px;
 }
 #kafka {
+    margin-top: 10px;
     position: relative;
     height: 200px;
     animation-name: kafka-move;
@@ -97,6 +100,10 @@ input, textarea {
 }
 .links-and-stuff {
     font-size: 20px;
+}
+.pages {
+    background-color:#404040;
+    border: solid 1px #8f8f8f;
 }
 .skin-thumbnails {
     width: 100%;
