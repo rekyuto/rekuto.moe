@@ -12,6 +12,10 @@ hr {
 h6 {
     font-size: 9px;
 }
+ul a {
+    text-decoration: none;
+    color: #dcccff;
+}
 form {
     border: solid 1px #8f8f8f;
     border-radius: 10px;
