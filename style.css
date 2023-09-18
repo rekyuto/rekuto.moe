@@ -30,6 +30,11 @@ input[type="submit"] {
     color: white;
     width: 100px;
     height: 2em;
+    transition-duration: 0.2s;
+}
+input[type="submit"]:hover {
+    background-color: #9694a1;
+    color: black
 }
 input, textarea {
     background-color: #1d1d1d;
