@@ -1,3 +1,9 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
 body {
     background-color: #222;
     font-family: 'Source Sans 3', sans-serif;
