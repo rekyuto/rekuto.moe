@@ -107,6 +107,9 @@ input, textarea {
     width: 75px;
     bottom: 15px;
 }
+#best-hsr-girl {
+    height: 100px;
+}
 .pages {
     word-spacing: 10px;
     background-color:#404040;
