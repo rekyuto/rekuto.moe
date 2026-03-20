@@ -66,6 +66,11 @@ input, textarea {
 #sw {
     height: 150px;
 }
+#kaoruko {
+    height: 200px;
+    padding-top: 30px;
+    gap: 30px;
+}
 #atagoSip {
     height: 30px;
     padding-top: 5px;
