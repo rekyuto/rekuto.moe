@@ -115,6 +115,9 @@ input, textarea {
 #best-hsr-girl {
     height: 100px;
 }
+#blog-index {
+    max-width: 400px;
+}
 .pages {
     word-spacing: 10px;
     background-color:#404040;
