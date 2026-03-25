@@ -3,6 +3,17 @@
         scroll-behavior: smooth;
     }
   }
+@media (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .pages {
+        font-size: 14px;
+        gap: 8px;
+    }
+}
 
 body {
     background-color: #222;
