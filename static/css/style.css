@@ -69,6 +69,7 @@ input, textarea {
     padding: 5px 20px;
     max-width: 960px;
     border-bottom: solid 2px #333;
+    animation: fadeIn 1s ease forwards;
 }
 #kafka {
     margin-top: 10px;
@@ -98,9 +99,6 @@ input, textarea {
 #home-hr {
     position: relative;
     bottom: 35px;
-}
-#blog-hr {
-    width: 650px;
 }
 #emu-skin {
     height: 200px;
@@ -141,10 +139,13 @@ input, textarea {
 #blog-index {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    max-width: 650px;
     text-align: left;
     font-size: 20px;
-    margin: 20px
+    margin: 20px;
+    padding: 20px;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
 }
 .website-name {
     font-size: 32px;
