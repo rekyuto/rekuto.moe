@@ -147,6 +147,10 @@ input, textarea {
     border-top: solid 2px white;
     border-bottom: solid 2px white;
 }
+#about-me {
+    max-width: 600px;
+    margin-bottom: 100px;
+}
 .website-name {
     font-size: 32px;
     font-weight: bold;
@@ -222,4 +226,17 @@ input, textarea {
 }
 .blog-title { 
     margin: 0;
+}
+.github-pfp {
+    width: 200px;
+    border-radius: 50%;
+    margin: 50px;
+}
+.who-am-i {
+    text-align: left;
+    border-top: solid 2px #333;
+    padding-top: 30px;
+}
+.about-me-firefly {
+    width: 100px;
 }
