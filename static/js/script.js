@@ -11,7 +11,7 @@ function hoverOut(img){
 
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById('ama-form');
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbx0KOFQwGAzDq3dZB0UlVx1StwEjHaNhKVFcFR_k6mf4Ggu82p-BAPACKEUqO2I2llL/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3XlqjKdMXX1q_6dYkiIoipOyE78k1q7RGRBYGzI-jMS031YyQjlV4N3SoezaOYKtL/exec';
 
     if (form) {
         form.addEventListener('submit', e => {
