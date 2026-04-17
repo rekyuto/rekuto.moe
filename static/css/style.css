@@ -199,6 +199,7 @@ input, textarea {
     max-width: 960px;
     text-align: left;
     border: 1px solid #131313;
+    margin: 30px;
 }
 .answers h3 {
     color: #d2f5ff;
